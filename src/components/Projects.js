@@ -5,6 +5,7 @@ import projImg1 from '../assets/img/prj1 (2).png';
 import projImg2 from '../assets/img/prj3.png';
 import projImg3 from '../assets/img/prj1 (1).png';
 import projImg4 from '../assets/img/prj4.png';
+import projImg5 from '../assets/img/prj5.png';
 import TrackVisibility from 'react-on-screen';
 import 'animate.css';
 
@@ -29,10 +30,16 @@ export const Projects = () => {
             link: "https://laundromat-sable.vercel.app/", // Add the project link here
         },
         {
-            title: "E-commerce website",
-            description: "A e-commerce website that sells all kind of clothings and shoes and many more.",
+            title: "Shopr — Modern Fashion E-Commerce Experience",
+            description: "Shopr is a responsive fashion e-commerce site built with Next.js, TypeScript, and Tailwind CSS. It features dynamic product listings from Sanity CMS, Clerk-powered authentication, a localStorage-based shopping cart and review system, responsive mobile navigation, and a sleek dark mode. Designed for performance and seamless user experience.",
             imgUrl: projImg4,
-            link: "https://example.com/ecommerce-website", // Add the project link here
+            link: "https://shopperroo-zzg5-git-master-mimosa00s-projects.vercel.app/", // Add the project link here
+        },
+        {
+            title: "Timbu Fashion E-Commerce Store",
+            description: "A modern, responsive online clothing store built with Next.js 15 and React 19, featuring dedicated Men's and Women's collections. This full-stack e-commerce platform showcases contemporary web development practices with TypeScript, Tailwind CSS, and state management via Zustand.The application delivers a seamless shopping experience with smooth animations, interactive product displays, and mobile-optimized design. Built as part of the HNG program, it demonstrates proficiency in modern React development, responsive design patterns, and e-commerce functionality.",
+            imgUrl: projImg5,
+            link: "https://shopperroo-zzg5-git-master-mimosa00s-projects.vercel.app/", // Add the project link here
         },
     ];
 
